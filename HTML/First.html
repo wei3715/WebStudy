@@ -1,0 +1,445 @@
+<!DOCTYPE>
+<HTML>
+<head>
+    <meta charset = "utf-8">
+    <title>春晓</title>
+    <style type="text/css">
+        h3 {color:red;}
+    </style>
+    <link rel="stylesheet" type="text/css" href="../CSS/FirstStyle.css">
+</head>
+<body>
+<h3>1.pre标签处理空格，sub下沉标签学习</h3>
+<h3>春晓</h3>
+<p>春眠不觉晓，处处闻啼鸟。<br>夜来风雨声，花落值知多少</p>
+
+<pre>春眠不觉晓，处处闻啼鸟。
+夜来风雨声，花落知多少。    <sub>--作者：jolly</sub>
+</pre>
+
+<h3>2.CSS内联样式使用</h3>
+<a href="backImg.html" style="text-decoration: none"> 访问链接(无下划线) </a>
+
+<h3>3.HTML图像学习</h3>
+<p> 段落里嵌套图像：<img src="../img/bg2.jpeg" alt = "背景图片" width="100" height="100"></p>
+
+<h3>3.1.CSS 图像对齐学习</h3>
+<h4>1.默认对齐方式，默认使用 align = "bottom"</h4>
+<p>一个默认对齐图像 <img src = "../img/bg1.jpeg" width = "70" height = "70"</p>
+
+<h4>2.顶部对齐使用，使用align = "top"</h4>
+<p>一个顶部对齐的图像 <img align = "top" src = "../img/bg1.jpeg" width = "70" height = "70"</p>
+
+<h4>3.居中对齐方式，使用 align = "middle"</h4>
+<p>一个底部对齐的图像 <img align = "middle" src = "../img/bg1.jpeg" width = "70" height = "70"</p>
+
+<h3>3.2.CSS 图像链接</h3>
+<p>创建图片链接：
+<a href = "backImg.html" target="_blank"> <img src="../img/point.png" alt = "按钮图片" height="30" width="30"> </a></p>
+
+<h3>3.3.CSS 创建图像映像</h3>
+<p>创建图映像：
+    <a href = "backImg.html" target="_blank"> <img src="../img/bg.png" alt = "大背景图片" height="200" width="200" usemap="#planetmap"> </a></p>
+
+<map name = "planetmap">
+    <area shape="rect" coords="0,0,100,200" alt = "矩形" href="uiConfig.html" target="_blank">
+    <area shape="circle" coords="150,150,10" alt = "圆形" href="poetry.html" target="_blank">
+</map>
+
+<h3>4.HTML表格学习</h3>
+<h3>4.1水平表格</h3>
+<table border="1">
+    <tr>
+        <th>姓名</th>
+        <th>爱好</th>
+        <th>职业</th>
+        <th>性格</th>
+    </tr>
+    <tr>
+        <td>李现</td>
+        <td>健身</td>
+        <td>演员</td>
+        <td>逗比</td>
+    </tr>
+    <tr>
+        <td>韩商言</td>
+        <td>打游戏</td>
+        <td>网络安全CTF</td>
+        <td>高冷</td>
+    </tr>
+    <tr>
+        <td>杨紫</td>
+        <td>唱歌</td>
+        <td>演员</td>
+        <td>活泼</td>
+    </tr>
+    <tr>
+        <td>佟年</td>
+        <td>计算机科学与技术</td>
+        <td>人工智能开发</td>
+        <td>暖萌</td>
+    </tr>
+
+</table>
+<h3>4.2垂直表格</h3>
+<table border="2">
+    <tr>
+        <th>小说</th>
+        <td>蜜汁炖鱿鱼</td>
+        <td>平凡的世界</td>
+    </tr>
+    <tr>
+        <th>电视剧名</th>
+        <td>亲爱的，热爱的</td>
+        <td>平凡的世界</td>
+    </tr>
+</table>
+<h3>4.3含有标题的表格</h3>
+<table border="1">
+    <caption>7.22-8.22diet日历表</caption>
+    <tr>
+        <th colspan="3">周日</th>
+        <th colspan="3">周一</th>
+        <th colspan="3">周二</th>
+        <th colspan="3">周三</th>
+        <th colspan="3">周四</th>
+        <th colspan="3">周五</th>
+        <th colspan="3">周六</th>
+    </tr>
+    <tr>
+        <th><pre>   日期  </pre></th>
+        <th><pre>   结果  </pre></th>
+        <th><pre>   运动  </pre></th>
+
+        <th><pre>   日期  </pre></th>
+        <th><pre>   结果  </pre></th>
+        <th><pre>   运动  </pre></th>
+
+        <th><pre>   日期  </pre></th>
+        <th><pre>   结果  </pre></th>
+        <th><pre>   运动  </pre></th>
+
+        <th><pre>   日期  </pre></th>
+        <th><pre>   结果  </pre></th>
+        <th><pre>   运动  </pre></th>
+
+        <th><pre>   日期  </pre></th>
+        <th><pre>   结果  </pre></th>
+        <th><pre>   运动  </pre></th>
+
+        <th><pre>   日期  </pre></th>
+        <th><pre>   结果  </pre></th>
+        <th><pre>   运动  </pre></th>
+
+        <th><pre>   日期  </pre></th>
+        <th><pre>   结果  </pre></th>
+        <th><pre>   运动  </pre></th>
+    </tr>
+    <tr>
+        <td>7.21</td>
+        <td><pre>      </pre></td>
+        <td><pre>     </pre></td>
+
+        <td bgcolor="red">
+            <p>7.22</p>
+            <p>开始啦！</p>
+        </td>
+        <td bgcolor="aqua">完成</td>
+        <td>上下班步行</td>
+
+        <td>7.23</td>
+        <td bgcolor="aqua">完成</td>
+        <td>上下班步行</td>
+
+        <td>7.24</td>
+        <td bgcolor="aqua">完成(8)</td>
+        <td>羽毛球</td>
+
+        <td>7.25
+            <ul>
+                <li>记住别人在进步</li>
+                <li>慢慢坚持</li>
+                <li>保持好心情</li>
+            </ul>
+        </td>
+        <td bgcolor="aqua">完成</td>
+        <td>上下班步行</td>
+
+        <td>7.26
+        <ul>
+            <li>8-10学英语</li>
+        </ul>
+        </td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>7.27</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>羽毛球</td>
+    </tr>
+    <tr>
+        <td>7.28</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td></td>
+
+        <td>7.29</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>7.30</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>7.31</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>运动：羽毛球</td>
+
+        <td>8.1</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>8.2</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>8.3</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>运动：羽毛球</td>
+    </tr>
+    <tr>
+        <td>8.4</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td></td>
+
+        <td>8.5</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>运动：上下班步行</td>
+
+        <td>8.6</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>8.7</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>羽毛球</td>
+
+        <td>8.8</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>8.9</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>8.10</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>羽毛球</td>
+    </tr>
+    <tr>
+        <td>8.11</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td></td>
+
+        <td>8.12</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>8.13</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>8.14</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>羽毛球</td>
+
+        <td>8.15</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>8.16</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>8.17</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>运动：羽毛球</td>
+    </tr>
+    <tr>
+        <td>8.18</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td></td>
+
+        <td>8.19</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>8.20</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>8.21</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>羽毛球</td>
+
+        <td bgcolor="red">
+            <p>8.22</p>
+            <p>第一阶段完美结束啦</p>
+        </td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>8.23</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>上下班步行</td>
+
+        <td>8.24</td>
+        <td bgcolor="#faebd7">加油</td>
+        <td>羽毛球</td>
+    </tr>
+</table>
+<h3>4.4跨单元格的表格</h3>
+<table border="1">
+    <tr>
+        <th>剧名</th>
+        <th colspan="2">主演</th>
+    </tr>
+    <tr>
+        <td>亲爱的，热爱的</td>
+        <td>李现</td>
+        <td>杨紫</td>
+    </tr>
+    <tr>
+        <td>请回答1988</td>
+        <td>李惠利</td>
+        <td>朴宝剑</td>
+    </tr>
+</table>
+<h3>5.列表学习</h3>
+<h3>5.1无序列表</h3>
+<ul>
+    <li>第一阶段7.22-8.22</li>
+    <li>第二阶段8.22-9.22</li>
+    <li>第二阶段9.22-10.22</li>
+</ul>
+<h3>5.2有序列表</h3>
+<ol>
+    <li>欲速则不达</li>
+    <li>晚饭少吃</li>
+    <li>周六日少吃</li>
+</ol>
+<ol start="10">
+    <li>5+2轻断食</li>
+    <li>周一</li>
+    <li>周四</li>
+</ol>
+<h3>自定义列表</h3>
+<dl>
+    <dt>姓名</dt>
+    <dd>韩商言</dd>
+    <dd>佟年</dd>
+    <dd>小米</dd>
+
+    <dt>性别</dt>
+    <dd>男</dd>
+    <dd>女</dd>
+    <dd>男</dd>
+</dl>
+
+<h3>6.布局学习</h3>
+<h3>6.1div布局学习</h3>
+<div id="divContainner">
+
+    <div id="divHeader">
+        <h1>diet计划</h1>
+    </div>
+
+    <div class="middlecontent">
+        <div id="divMenu">
+            <ul style="margin-top:0;">
+                <li>注意饮食</li>
+                <li>注意运动</li>
+                <li>保持好心情</li>
+                <li>坚持最重要</li>
+            </ul>
+        </div>
+
+        <div id="divContent">
+            <b>这里是具体每天感悟</b>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+
+
+    <div id="divBottom">
+        <b>自律给我自由，学习改变命运。<sub>--jolly</sub></b>
+    </div>
+
+</div>
+
+<h3>6.2table布局学习</h3>
+
+<table border="1" style="border-collapse: collapse"  id="divContainner">
+    <tr>
+        <td id="divHeader" colspan="2">
+            <h3>瘦身计划</h3>
+        </td>
+    </tr>
+
+    <tr >
+        <td style="background-color: antiquewhite">
+            <ul>
+                <li>注意饮食</li>
+                <li>注意运动</li>
+                <li>保持好心情</li>
+                <li>坚持最重要</li>
+                </li>
+            </ul>
+        </td>
+        <td style="background-color: blueviolet">这里是具体内容</td>
+    </tr>
+    <tr style="height: 30px">
+        <td colspan="2">
+            <b>自律给我自由，学习改变命运。<sub>--jolly</sub></b>
+        </td>
+    </tr>
+
+</table>
+
+<h3>7.表单和输入学习</h3>
+<h3>7.1文本输入框</h3>
+<form>
+    姓名: <input type="text"><br>
+    角色名:<input type="text">
+</form>
+<p><b>注意：表单默认是不可见的，并且宽度默认是20个字符</b></p>
+
+<h3>7.2密码输入框</h3>
+<form>
+    账号: <input type="text"><br>
+    密码:<input type="password">
+</form>
+
+
+<h3>7.3单选框</h3>
+<form>
+    <input type="radio" name="sex" value="female"> 女<br>
+    <input type="radio" name="sex" value="male">男
+</form>
+
+<h3>7.4复选选框</h3>
+<form>
+    水果<br>
+    <input type="checkbox" name="fruit" value="pineapple"> 菠萝<br>
+    <input type="checkbox" name="fruit" value="apple">苹果 <br>
+    <input type="checkbox" name="fruit" value="peach">桃子 <br>
+</form>
+
+<h3>7.4提交按钮</h3>
+<form>
+
+    账号：<input type="text" name="account"><br>
+    密码：<input type="password" name="password"><br>
+    <input type="submit" name="提交">
+</form>
+
+</body>

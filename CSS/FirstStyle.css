@@ -1,0 +1,34 @@
+#divContainner {
+    background-color: green;
+    width: 500px;
+    height: 300px;
+}
+
+#divHeader{
+    background-color: #FF00FF;
+    width: 500px;
+    height: 50px;
+}
+
+#divMenu{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 220px;
+    float:left;
+}
+
+#divContent{
+    background-color:blueviolet;
+    width: 300px;
+    height: 220px;
+    float:right;
+}
+#divBottom{
+    background-color: darkred;
+    width: 500px;
+    height: 30px;
+}
+
+.middlecontent{
+
+}

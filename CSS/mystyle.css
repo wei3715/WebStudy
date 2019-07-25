@@ -1,0 +1,139 @@
+body
+{
+    background-color: red;
+    background-image: url("../img/bg1.jpeg");
+}
+
+h1
+{
+
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p.date
+{
+   text-align: right;
+}
+
+
+p.main
+{
+    text-align: justify;
+}
+
+p.uppercase{
+    text-transform: capitalize;
+    line-height: 1000%;
+}
+
+p.indent{
+     text-indent: 60px;
+ }
+
+p.letterSpace{
+     letter-spacing: 20px;
+ }
+p.font{
+    font-family:"Times New Roman" Times, serif;
+}
+
+/*字体格式化*/
+h2.wordSpace{
+    letter-spacing: 20px;
+}
+h2.right{
+    direction: rtl;
+}
+h3.textShadow{
+    text-shadow: 2px 10px red;
+}
+
+/*文本图像对齐方式*/
+img.topImg{
+     vertical-align: text-top;
+ }
+img.bottomImg{
+    vertical-align: text-bottom;
+}
+/* */
+a:link{
+     color:#000000;
+     text-decoration:none;
+ }
+
+a:visited{
+    color:#00FF00;
+    text-decoration: overline;
+}
+
+a:hover{
+     color:#FF00FF;
+    text-decoration: underline;
+ }
+
+a:active{
+    color:#000F00;
+    text-decoration: underline;
+}
+
+a.two:hover{
+    color:#000000;
+    text-decoration:none;
+    font-size: 150%;
+}
+
+
+a.three:hover{
+    color:#FF00FF;
+    background: red;
+}
+
+/*列表实现*/
+ul.a{
+    list-style: circle;
+}
+ur.b{
+    list-style: square;
+}
+
+ol.a{
+    list-style: upper-roman;
+}
+ol.b{
+    list-style: lower-alpha;
+}
+ul.c{
+    list-style-image: url("../img/point.png");
+}
+
+/*列表实现*/
+table,th,td{
+    border-collapse: collapse;
+    border: 1px solid red;
+}
+table{
+    width: 100%;
+}
+
+th{
+    background-color: green;
+    color:white;  /*表格顶部字体颜色*/
+}
+
+td{
+    height: 50px;
+    /*text-align: right;*/
+    padding: 30px;
+    vertical-align: bottom;
+    background-color: #FF00FF;
+}
+
+/*测试css盒子模型*/
+div{
+    width: 300px;
+    border:20px solid green;
+    padding: 25px;
+    margin: 50px;
+}
