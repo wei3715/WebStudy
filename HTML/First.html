@@ -168,14 +168,15 @@
         <td>7.26
         <ul>
             <li>8-10学英语</li>
+            <li>吃了好几根香蕉+饼干</li>
         </ul>
         </td>
-        <td bgcolor="#faebd7">加油</td>
-        <td>上下班步行</td>
+        <td bgcolor="#aqua">少吃零食</td>
+        <td>上班步行</td>
 
         <td>7.27</td>
         <td bgcolor="#faebd7">加油</td>
-        <td>羽毛球</td>
+        <td> 上班走路+羽毛球</td>
     </tr>
     <tr>
         <td>7.28</td>
@@ -428,10 +429,12 @@
 
 <h3>7.4复选选框</h3>
 <form>
-    水果<br>
-    <input type="checkbox" name="fruit" value="pineapple"> 菠萝<br>
+    <fieldset>
+        <legend>水果</legend>
+    <input type="checkbox" name="fruit" value="pineapple" size="40"> 菠萝<br>
     <input type="checkbox" name="fruit" value="apple">苹果 <br>
     <input type="checkbox" name="fruit" value="peach">桃子 <br>
+    </fieldset>
 </form>
 
 <h3>7.4提交按钮</h3>
@@ -441,5 +444,30 @@
     密码：<input type="password" name="password"><br>
     <input type="submit" name="提交">
 </form>
+
+<h3>7.5简单的下拉列表</h3>
+<form>
+<select name="class">
+    <option value="English">English</option>
+    <option value="Math">Math</option>
+    <option value="Physical" selected>Physical</option>
+    <option value="Chemical">Chemical</option>
+</select>
+</form>
+
+<h3>7.6文本域</h3>
+<textarea rows="15" cols="30">我是一个文本框</textarea>
+
+<h3>7.6按钮</h3>
+<input type="button" value="我是按钮">
+
+<h3>8.框架学习</h3>
+<h3>8.1iframe显示指定文件（有边框）</h3>
+<iframe src="uiConfig.html" width="300" height="300" frameborder="0"></iframe>
+<h3>8.2框架显示目标链接(有边框)</h3>
+<iframe src="uiConfig.html" width="1000" height="500" name="iframe_a"></iframe>
+<p><a href="https://www.baidu.com" target="iframe_a">点击链接显示目标链接 </a></p>
+
+<h3>9.颜色学习</h3>
 
 </body>

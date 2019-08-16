@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3d56ed3-3bb0-43c6-a509-2a1d866524d0" name="Default Changelist" comment="" />
+    <list default="true" id="c3d56ed3-3bb0-43c6-a509-2a1d866524d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/First.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/First.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +40,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTML/First.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="888">
-              <caret line="441" column="35" selection-start-line="441" selection-start-column="35" selection-end-line="441" selection-end-column="35" />
+            <state relative-caret-position="225">
+              <caret line="430" column="6" lean-forward="true" selection-start-line="430" selection-start-column="6" selection-end-line="430" selection-end-column="6" />
               <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#4;n#body#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#1;n#table#4;n#body#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#1;n#table#4;n#body#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tr#2;n#table#4;n#body#0;n#HTML#0;n#!!top" expanded="true" />
+                <element signature="e#7667#7688#0" expanded="true" />
+                <element signature="e#7933#7952#0" expanded="true" />
+                <element signature="e#8107#8140#0" expanded="true" />
+                <element signature="e#8284#8322#0" expanded="true" />
+                <element signature="e#8529#8565#0" expanded="true" />
+                <element signature="e#8597#8617#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,6 +88,9 @@
       <find>完成</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -99,17 +106,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="777" />
-    <option name="y" value="64" />
+    <option name="x" value="867" />
+    <option name="y" value="61" />
     <option name="width" value="1555" />
     <option name="height" value="1183" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,9 +138,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -182,18 +191,19 @@
       <workItem from="1563935137273" duration="8206000" />
       <workItem from="1563952898857" duration="1601000" />
       <workItem from="1564020454373" duration="4614000" />
-      <workItem from="1564044196957" duration="1848000" />
+      <workItem from="1564044196957" duration="6476000" />
+      <workItem from="1564193859443" duration="1307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34018000" />
+    <option name="totallyTimeSpent" value="39953000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="777" y="64" width="1555" height="1183" extended-state="0" />
+    <frame x="867" y="61" width="1555" height="1183" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18175809" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18374091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -256,6 +266,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/FirstStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/uiConfig.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -270,24 +287,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/FirstStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/First.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="441" column="35" selection-start-line="441" selection-start-column="35" selection-end-line="441" selection-end-column="35" />
+        <state relative-caret-position="225">
+          <caret line="430" column="6" lean-forward="true" selection-start-line="430" selection-start-column="6" selection-end-line="430" selection-end-column="6" />
           <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#4;n#body#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#4;n#body#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#table#4;n#body#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#2;n#table#4;n#body#0;n#HTML#0;n#!!top" expanded="true" />
+            <element signature="e#7667#7688#0" expanded="true" />
+            <element signature="e#7933#7952#0" expanded="true" />
+            <element signature="e#8107#8140#0" expanded="true" />
+            <element signature="e#8284#8322#0" expanded="true" />
+            <element signature="e#8529#8565#0" expanded="true" />
+            <element signature="e#8597#8617#0" expanded="true" />
           </folding>
         </state>
       </provider>
